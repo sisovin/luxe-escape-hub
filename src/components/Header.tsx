@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Menu, X, Globe } from "lucide-react";
+import { Menu, X, Globe, LogIn, UserPlus } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 
@@ -83,6 +83,14 @@ const Header = () => {
             <Button className="bg-gradient-accent hover:opacity-90 transition-smooth">
               {t.bookNow}
             </Button>
+            <Button variant="outline">
+              <LogIn className="h-4 w-4" />
+              Login
+            </Button>
+            <Button variant="default">
+              <UserPlus className="h-4 w-4" />
+              Sign Up
+            </Button>
           </div>
 
           {/* Mobile Menu */}
@@ -116,6 +124,14 @@ const Header = () => {
                 </Button>
                 <Button className="bg-gradient-accent hover:opacity-90 transition-smooth">
                   {t.bookNow}
+                </Button>
+                <Button variant="outline" className="justify-start">
+                  <LogIn className="h-5 w-5 mr-2" />
+                  Login
+                </Button>
+                <Button variant="default" className="justify-start">
+                  <UserPlus className="h-5 w-5 mr-2" />
+                  Sign Up
                 </Button>
               </div>
             </SheetContent>
