@@ -1,73 +1,151 @@
-# Welcome to your Lovable project
+# Luxe Escape Hub
 
-## Project info
+A modern, visually striking hotel landing page built with React, Vite, App Router, ShadCN UI components, and Tailwind CSS v4. This project showcases the hotel's offerings with an emphasis on user experience and conversion optimization.
 
-**URL**: https://lovable.dev/projects/d819c796-ddee-4eb6-b435-094d6aa8b59d
+---
 
-## How can I edit this code?
+## Table of Contents
 
-There are several ways of editing your application.
+- [Features](#features)
+- [Demo](#demo)
+- [Tech Stack](#tech-stack)
+- [Getting Started](#getting-started)
+- [Project Structure](#project-structure)
+- [Deployment](#deployment)
+- [Custom Domain](#custom-domain)
+- [Contributing](#contributing)
+- [License](#license)
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/d819c796-ddee-4eb6-b435-094d6aa8b59d) and start prompting.
+## Features
 
-Changes made via Lovable will be committed automatically to this repo.
+### Hero Section
+- **Full-width Image Carousel**: Dynamic display of room previews and hotel highlights.
+- **Prominent "Book Now" CTA**: Makes booking easy and immediate.
+- **Language Toggle**: Seamlessly switch between Khmer and English.
 
-**Use your preferred IDE**
+### Room Showcase
+- **Interactive Grid of Room Cards**: Users can browse, filter, and compare options.
+- **Pricing & Quick-View Modals**: Instant access to detailed room info and rates.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Amenities Section
+- **Icon-Based Feature Highlights**: Engaging visuals for amenities.
+- **Hover Animations & Expandable Details**: Interactive and accessible details for each amenity.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Responsive Navigation
+- **Sticky Header**: Always accessible navigation.
+- **Collapsible Mobile Menu**: Uses ShadCN Sheet component for smooth mobile experience.
 
-Follow these steps:
+### Booking Widget
+- **Floating Date Picker**: Easy room booking with real-time availability.
+- **Special Offers Integration**: Displays deals and promotions.
+
+---
+
+## Demo
+
+[Live Demo](https://lovable.dev/projects/d819c796-ddee-4eb6-b435-094d6aa8b59d)
+
+---
+
+## Tech Stack
+
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [ShadCN UI](https://ui.shadcn.com/)
+- [Tailwind CSS v4](https://tailwindcss.com/)
+- App Router
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- [Node.js & npm](https://nodejs.org/) (recommended: use [nvm](https://github.com/nvm-sh/nvm#installing-and-updating))
+
+### Local Development
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
+# Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Navigate to the project directory
+cd luxe-escape-hub
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Open [http://localhost:5173](http://localhost:5173) in your browser to view the site.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Using Lovable
 
-**Use GitHub Codespaces**
+- Visit the [Lovable Project Dashboard](https://lovable.dev/projects/d819c796-ddee-4eb6-b435-094d6aa8b59d) and start prompting.
+- Changes made via Lovable are committed automatically to this repo.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### GitHub Codespaces
 
-## What technologies are used for this project?
+1. Go to your repo's main page.
+2. Click the green "Code" button, select "Codespaces" tab.
+3. Click "New codespace" to launch an environment.
+4. Edit and commit directly in Codespaces.
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## Project Structure
 
-## How can I deploy this project?
+```
+src/
+  components/      # Reusable UI components (Hero, Carousel, RoomCard, Amenities, etc.)
+  pages/           # Page-level components, routing logic
+  assets/          # Images, icons, static files
+  styles/          # Tailwind config, custom CSS
+  utils/           # Utilities and helpers
+public/            # Static files served by Vite
+```
 
-Simply open [Lovable](https://lovable.dev/projects/d819c796-ddee-4eb6-b435-094d6aa8b59d) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
+## Deployment
 
-Yes, you can!
+Deploy instantly via Lovable:
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+- Open [Lovable](https://lovable.dev/projects/d819c796-ddee-4eb6-b435-094d6aa8b59d)
+- Click "Share" → "Publish"
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Or, deploy manually to [Vercel](https://vercel.com/), [Netlify](https://netlify.com/), or similar platforms.
+
+---
+
+## Custom Domain
+
+Connect your own domain:
+
+- Go to Project > Settings > Domains on Lovable
+- Click "Connect Domain"
+
+Read more: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+
+---
+
+## Contributing
+
+Contributions are welcome! Please open issues or pull requests for bug fixes, feature requests, or improvements.
+
+---
+
+## License
+
+This project is [MIT licensed](LICENSE).
+
+---
+
+## Contact
+
+For questions or support, please open a GitHub issue or contact the project maintainer.
